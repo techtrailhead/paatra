@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Large local artifacts
+artifacts/checkpoints/*.pt
+artifacts/checkpoints/*.bin
+artifacts/checkpoints/*.safetensors
+
+# Generated files
+figures/*.png
